@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #ffc0cb;
+    flex: 1;
+    padding: 20px;
+}
+
+.kanan {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+header, footer {
+    background-color: #e6df85;
+    height: 15vh;
+    padding: 20px;
+}
+
+.tengah {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    background-color: #ffffff;
+    flex: 3;
+    padding: 20px;
+}
+
+aside {
+    background-color: #00ffff;
+    flex: 1;
+    padding: 20px;
+}

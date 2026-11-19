@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #a8d98a;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.baris {
+    width: 100%;
+    overflow: hidden; /* Mengatasi masalah float */
+    margin-bottom: 20px;
+}
+
+.kiri {
+    width: 20%;
+    height: 180px;
+    float: left;
+    border: 1px solid black;
+}
+
+.kanan {
+    width: 77%;
+    height: 180px;
+    float: right;
+    border: 1px solid black;
+}
+
+.kuning { background-color: #f4eb49; }
+.oranye { background-color: #ff6624; }
+.biru   { background-color: #4dd2ff; }

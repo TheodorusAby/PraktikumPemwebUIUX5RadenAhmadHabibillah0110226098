@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffb3b3; /* Bingkai luar pink */
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header, footer {
+    background-color: #99cccc;
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+aside {
+    background-color: #66b2b2;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    background-color: #ff7f7f;
+    flex: 3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Mendorong konten ke bawah */
+    gap: 20px;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.img-box {
+    background-color: #cccccc;
+    flex: 1;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

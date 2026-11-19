@@ -1,0 +1,21 @@
+body {
+    background-color: #f9fae8;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.kotak {
+    width: 22%;
+    float: left;
+    margin: 1.5%;
+}
+
+.kotak img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Agar gambar terpotong rapi tanpa gepeng */
+    border-radius: 5px;
+}

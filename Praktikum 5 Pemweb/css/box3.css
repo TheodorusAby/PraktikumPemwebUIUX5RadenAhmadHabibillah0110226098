@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+/* Baris Atas */
+.top-left {
+    width: 19%;
+    height: 80px;
+    background-color: #f4eb49;
+    border: 1px solid black;
+    float: left;
+}
+
+.top-right {
+    width: 79.5%;
+    height: 80px;
+    background-color: #ff6624;
+    border: 1px solid black;
+    float: right;
+}
+
+/* Baris Tengah */
+.mid-left {
+    width: 19%;
+    height: 400px;
+    background-color: #a8d98a;
+    border: 1px solid black;
+    float: left;
+}
+
+.mid-center {
+    width: 58.5%;
+    height: 400px;
+    background-color: #cccccc;
+    border: 1px solid black;
+    float: left;
+    margin-left: 1.5%;
+}
+
+.mid-right {
+    width: 19.5%;
+    height: 400px;
+    background-color: #4dd2ff;
+    border: 1px solid black;
+    float: right;
+}
+
+/* Baris Bawah */
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #1a66ff;
+    border: 1px solid black;
+}

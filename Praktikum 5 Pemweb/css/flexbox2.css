@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+header, footer {
+    background-color: #e6df85;
+    padding: 20px;
+    height: 15vh;
+}
+
+#main {
+    display: flex;
+    flex: 1; /* Mengisi sisa ruang tinggi layar */
+}
+
+#main article {
+    background-color: #ffffff;
+    flex: 3; /* Lebar 3x lebih besar */
+    padding: 20px;
+}
+
+#main aside {
+    background-color: #ffc0cb;
+    flex: 1;
+    padding: 20px;
+}
+
+#main nav {
+    background-color: #00ced1;
+    flex: 1;
+    padding: 20px;
+}
